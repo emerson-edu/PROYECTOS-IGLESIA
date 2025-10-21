@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Asistente de Escritura Teológica",
+  "description": "Una aplicación web que funciona como asistente para escribir y editar libros y manuales en las áreas de teología, estudios bíblicos y educación cristiana, utilizando la API de Gemini para generar, refinar y estructurar contenido.",
+  "requestFramePermissions": []
+}

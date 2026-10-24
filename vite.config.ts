@@ -12,7 +12,11 @@ export default defineConfig(({ mode }) => {
       plugins: [react()],
       define: {
         'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
-        'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY)
+        'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
+        'process.env.LLM_PROVIDER': JSON.stringify(env.LLM_PROVIDER),
+        'process.env.LLM_API_KEY': JSON.stringify(env.LLM_API_KEY),
+        'process.env.LLM_MODEL': JSON.stringify(env.LLM_MODEL),
+        'process.env.LLM_BASE_URL': JSON.stringify(env.LLM_BASE_URL)
       },
       resolve: {
         alias: {
